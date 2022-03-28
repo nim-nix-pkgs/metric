@@ -11,7 +11,6 @@
   inputs.src-metric-master.ref   = "refs/heads/master";
   inputs.src-metric-master.owner = "mjendrusch";
   inputs.src-metric-master.repo  = "metric";
-  inputs.src-metric-master.dir   = "";
   inputs.src-metric-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
